@@ -14,7 +14,7 @@ batsman={
 
 bowlers={
     "Zaheer":95,
-    "Bumbrah":90,
+    "Bumrah":90,
     "Shami":80
 }
 
