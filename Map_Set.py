@@ -1,8 +1,8 @@
 # Map - using map , we can map a method with set
 
-superhero = {1,2,3,4}
-print(superhero) # here it wont print 3.0 (3/3.0 one and the same bcz its a duplicate value)
-
+superhero = {1,2,3,4,3.0}
+print(superhero) # here it wont take 3.0 (3/3.0 one and the same and set cant have duplicate value)
+print(len(superhero))
 def getSquare(num):
     return num*num
 result = map(getSquare,superhero)
